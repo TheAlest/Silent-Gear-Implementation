@@ -20,8 +20,8 @@ group = mod_group_id
 
 repositories {
     def gpr_creds = {
-        username = property('gpr.username')
-        password = property('gpr.token')
+        username = providers.gradleProperty('gpr.username')
+        password = providers.gradleProperty('gpr.token')
     }
 
 
