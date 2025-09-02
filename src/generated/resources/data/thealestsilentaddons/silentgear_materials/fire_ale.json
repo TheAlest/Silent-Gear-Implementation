@@ -1,0 +1,37 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "organic",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "irons_spellbooks:fire_ale"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF80091B",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.thealestsilentaddons.fire_ale"
+    },
+    "name_prefix": {
+      "translate": "material.thealestsilentaddons.fire_ale"
+    }
+  },
+  "properties": {
+    "silentgear:coating": {
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "thealestsilentaddons:burning"
+        }
+      ]
+    }
+  }
+}

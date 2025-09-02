@@ -1,0 +1,44 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:or",
+      "values": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "silentgear:curio"
+        },
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "silentgear:armor"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "translate": "trait.thealestsilentaddons.mana.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "all/any": [
+          {
+            "attribute": "irons_spellbooks:max_mana",
+            "operation": "add_value",
+            "values": [
+              25.0,
+              50.0,
+              75.0,
+              100.0,
+              125.0
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.thealestsilentaddons.mana"
+  }
+}

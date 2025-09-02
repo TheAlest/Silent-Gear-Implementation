@@ -1,0 +1,40 @@
+{
+  "values": [
+    "minecraft:phantom",
+    "minecraft:vex",
+    "minecraft:ender_dragon",
+    "minecraft:ghast",
+    {
+      "id": "luminousworld:pheonix",
+      "required": false
+    },
+    {
+      "id": "luminousworld:wind_pheonix",
+      "required": false
+    },
+    {
+      "id": "luminousworld:baby_wind_phoenix",
+      "required": false
+    },
+    {
+      "id": "luminousworld:baby_phoenix",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:ghost",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:spirit",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:poltergeist",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:guzzleghast",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:or",
+      "values": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "silentgear:curio"
+        },
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "silentgear:weapon"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "translate": "trait.thealestsilentaddons.spell_power.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "all/any": [
+          {
+            "attribute": "irons_spellbooks:spell_power",
+            "operation": "add_value",
+            "values": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.thealestsilentaddons.spell_power"
+  }
+}

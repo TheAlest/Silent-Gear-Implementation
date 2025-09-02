@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:bogged",
+    "minecraft:creeper",
+    "minecraft:stray",
+    {
+      "id": "luminousworld:treant",
+      "required": false
+    },
+    {
+      "id": "luminousworld:cherry_treant",
+      "required": false
+    },
+    {
+      "id": "luminousworld:yeti",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:or",
+      "values": [
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "silentgear:curio"
+        },
+        {
+          "type": "silentgear:gear_type",
+          "gear_type": "silentgear:armor"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "translate": "trait.thealestsilentaddons.deflect_magic.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "all/any": [
+          {
+            "attribute": "irons_spellbooks:spell_resist",
+            "operation": "add_value",
+            "values": [
+              0.08,
+              0.16,
+              0.24,
+              0.32,
+              0.4
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.thealestsilentaddons.deflect_magic"
+  }
+}

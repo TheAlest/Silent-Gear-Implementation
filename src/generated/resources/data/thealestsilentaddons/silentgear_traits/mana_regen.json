@@ -1,0 +1,30 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.thealestsilentaddons.mana_regen.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "all/any": [
+          {
+            "attribute": "irons_spellbooks:mana_regen",
+            "operation": "add_value",
+            "values": [
+              0.25,
+              0.5,
+              0.75,
+              1.0,
+              1.25
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.thealestsilentaddons.mana_regen"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "rock",
+      "basic"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:glass_blocks"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#7FFFFFFF",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.thealestsilentaddons.glass"
+    },
+    "name_prefix": {
+      "translate": "material.thealestsilentaddons.glass"
+    }
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 6.0,
+      "armor/boots": 1.0,
+      "armor/chestplate": 2.0,
+      "armor/helmet": 1.0,
+      "armor/leggings": 2.0,
+      "armor_durability": 6.0,
+      "attack_damage": 1.0,
+      "attack_speed": 0.0,
+      "charging_value": 1.0,
+      "draw_speed": 1.1,
+      "durability": 32.0,
+      "enchantment_value": 22.0,
+      "harvest_speed": 12.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_stone_tool",
+        "level_hint": "1",
+        "name": "glass"
+      },
+      "magic_armor": 10.0,
+      "magic_damage": 4.0,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.1,
+      "ranged_damage": 1.0,
+      "rarity": 20.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:brittle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:chipping"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sharp"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:brittle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:chipping"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 16.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sharp"
+        }
+      ]
+    }
+  }
+}

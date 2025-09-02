@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "luminousworld:bone_stalker",
+      "required": false
+    },
+    {
+      "id": "luminousworld:bogged_bone_stalker",
+      "required": false
+    },
+    {
+      "id": "luminousworld:auburn_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminousworld:cherry_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminousworld:dark_oak_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminousworld:savannah_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminousworld:swamp_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminousworld:frigid_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminousworld:miner_skeleton",
+      "required": false
+    }
+  ]
+}

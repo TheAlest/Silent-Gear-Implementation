@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "luminousworld:arid_yeti",
+      "required": false
+    },
+    {
+      "id": "luminousworld:pheonix",
+      "required": false
+    },
+    {
+      "id": "luminousworld:baby_phoenix",
+      "required": false
+    }
+  ]
+}

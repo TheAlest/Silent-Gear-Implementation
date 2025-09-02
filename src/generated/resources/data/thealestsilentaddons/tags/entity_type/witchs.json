@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:witch",
+    {
+      "id": "enderzoology:wither_witch",
+      "required": false
+    },
+    {
+      "id": "luminousworld:witch_doctor",
+      "required": false
+    },
+    {
+      "id": "luminousworld:woodland_witch_doctor",
+      "required": false
+    }
+  ]
+}

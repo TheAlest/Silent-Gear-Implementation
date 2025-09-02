@@ -1,0 +1,108 @@
+{
+  "values": [
+    "minecraft:ghast",
+    "minecraft:blaze",
+    "minecraft:hoglin",
+    "minecraft:magma_cube",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:spider",
+    "minecraft:wither_skeleton",
+    {
+      "id": "luminous_nether:basalt_executioner",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:crimson_walker",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:cultist_archer",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:cultist_rider",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:gilded_cultist",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:glider",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:guzzleghast",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:mushlin_bumper",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:mushlin_king",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:mushlin_king_2",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:mushlin_king_3",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:piglin_executioner",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:piglin_executioner_2",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:piglin_executioner_3",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:ghost",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:poltergeist",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:revenant_skeleton",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:spirit",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:warped_king",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:zombie_piglin_cultist",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:zombie_piglin_cultist_leader",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:the_furnace",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:the_furnace_2",
+      "required": false
+    },
+    {
+      "id": "luminous_nether:the_furnace_3",
+      "required": false
+    }
+  ]
+}

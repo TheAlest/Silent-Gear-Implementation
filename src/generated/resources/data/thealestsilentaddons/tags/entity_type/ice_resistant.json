@@ -1,0 +1,20 @@
+{
+  "values": [
+    "minecraft:breeze",
+    "minecraft:creeper",
+    "minecraft:drowned",
+    "#thealestsilentaddons:slimes",
+    {
+      "id": "#creeperoverhaul:creepers",
+      "required": false
+    },
+    {
+      "id": "enderzoology:dire_wolf",
+      "required": false
+    },
+    {
+      "id": "luminousworld:yeti",
+      "required": false
+    }
+  ]
+}

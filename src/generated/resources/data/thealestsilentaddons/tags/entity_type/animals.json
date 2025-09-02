@@ -1,0 +1,43 @@
+{
+  "values": [
+    "minecraft:hoglin",
+    "minecraft:ravager",
+    "#minecraft:arthropod",
+    {
+      "id": "enderzoology:wither_cat",
+      "required": false
+    },
+    {
+      "id": "enderzoology:dire_wolf",
+      "required": false
+    },
+    {
+      "id": "enderzoology:owl",
+      "required": false
+    },
+    {
+      "id": "luminousworld:king_crab",
+      "required": false
+    },
+    {
+      "id": "luminousworld:golden_king_hermit",
+      "required": false
+    },
+    {
+      "id": "luminousworld:sea_viper",
+      "required": false
+    },
+    {
+      "id": "luminousworld:coral_sea_viper",
+      "required": false
+    },
+    {
+      "id": "luminousworld:frigid_gator",
+      "required": false
+    },
+    {
+      "id": "luminousworld:toxic_gator",
+      "required": false
+    }
+  ]
+}

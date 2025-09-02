@@ -1,0 +1,46 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF80091B",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.thealestsilentaddons.divine_pearl"
+    },
+    "name_prefix": {
+      "translate": "material.thealestsilentaddons.divine_pearl"
+    }
+  },
+  "properties": {
+    "silentgear:coating": {
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "thealestsilentaddons:blessed"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "thealestsilentaddons:deflect_magic"
+        }
+      ]
+    }
+  }
+}
